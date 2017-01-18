@@ -31,7 +31,7 @@ options(htmltools.dir.version = FALSE, cache = TRUE)
 
 name: about-me
 class: top, left
-background-image: url(../img/me.png)
+background-image: url(./img/me.png)
 background-size: 75%
 background-position: center middle
 
@@ -65,7 +65,7 @@ background-image: none
 
 ---
 class: inverse, center, bottom
-background-image: url(../img/nexer-cover.jpg)
+background-image: url(./img/nexer-cover.jpg)
 background-size: contain
 
 # Nexer
@@ -77,13 +77,13 @@ Pergunto quem conhece a Nexer, logo após dizer minha colocação na empresa.
 
 ---
 class: left, top
-background-image: url(../img/logo-nexer.png)
+background-image: url(./img/logo-nexer.png)
 background-size: 80px
 background-position: 90% 8%
 
 # Nexer
 
-![](../img/nexer-cover.jpg)
+![](./img/nexer-cover.jpg)
 
 ???
 Explico brevemente a solução, que tem como objetivo usar Big Data, ML e Int. Art. 
@@ -132,7 +132,7 @@ trip.data %>%
 
 ---
 class: inverse, bottom, left
-background-image: url(../img/ml-icon.png)
+background-image: url(./img/ml-icon.png)
 background-size: 250px
 background-position: 90% 16%
 
@@ -170,10 +170,10 @@ class: inverse, center, middle
 
 ---
 class: inverse, center, middle
-background-image: url(../img/r-logo.svg)
+background-image: url(./img/r-logo.svg)
 background-size: 200px
 
 ---
 class: inverse, center, middle
-background-image: url(../img/python-logo.svg)
+background-image: url(./img/python-logo.svg)
 background-size: 200px
