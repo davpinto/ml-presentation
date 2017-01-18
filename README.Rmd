@@ -1,0 +1,10 @@
+---
+title: "ML Meetup BH"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Source files of my presentation on the **II ML Meetup** in Belo Horizonte.

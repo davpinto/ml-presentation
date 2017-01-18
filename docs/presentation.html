@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Como Iniciar em Machine Learning?</title>
+    <meta charset="utf-8">
+    <meta name="author" content="II Meetup de ML" />
+    <link href="libs/remark-css/example.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/datatables-binding/datatables.js"></script>
+    <link href="libs/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="libs/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
+    <script src="libs/dt-core/js/jquery.dataTables.min.js"></script>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Como Iniciar em Machine Learning?
+## <a href="http://davpinto.com">David Pinto</a>, CAO Nexer Labs
+### II Meetup de ML
+### Belo Horizonte - 19/01/2017
+
+---
+
+
+
+
+name: about-me
+class: top, left
+background-image: url(../img/me.png)
+background-size: 75%
+background-position: center middle
+
+# Quem sou eu?
+
+.footnote[
+------
+
+- **Website:** [http://davpinto.com](http://davpinto.com)
+- **GitHub:** [https://github.com/davpinto](https://github.com/davpinto)
+]
+
+???
+(Quem vos fala?) Falar sobre minha formação, com foco em como iniciei na área de 
+machine learning e como comecei a trabalhar de fato na área. Contar a história 
+de como iniciei na Nexer (Danilo Mattos, CEO, chegou no meu laboratório da 
+graduação dizendo que estava coletando dados de carros e precisava analisá-los.
+Foi quando identificamos alguns padrões que indicavam que o veículo tinha 5 
+marchas. No entanto, o algoritmo acusava 7. Era um modelo que estava pra entrar 
+no mercado, e realmente tinha 7 marchas.)
+
+---
+template: about-me
+background-image: none
+
+- Bacharel em **Engenharia de Controle e Automação** pela *UFMG*
+
+- Mestre em **Inteligência Computacional** pelo *PPGEE* da *UFMG*
+
+- **Co-founder** e **CAO** da Nexer
+
+---
+class: inverse, center, bottom
+background-image: url(../img/nexer-cover.jpg)
+background-size: contain
+
+# Nexer
+
+Big Data e Analytics para Carros Conectados
+
+???
+Pergunto quem conhece a Nexer, logo após dizer minha colocação na empresa.
+
+---
+class: left, top
+background-image: url(../img/logo-nexer.png)
+background-size: 80px
+background-position: 90% 8%
+
+# Nexer
+
+![](../img/nexer-cover.jpg)
+
+???
+Explico brevemente a solução, que tem como objetivo usar Big Data, ML e Int. Art. 
+para facilitar a vida do motorista.
+
+---
+class: inverse, center, middle
+
+# Que dados coletamos?
+
+---
+class: center, top
+
+![](presentation_files/figure-html/unnamed-chunk-1-1.svg)&lt;!-- --&gt;
+
+???
+Nesse ponto é interessante começar a ressaltar a importância de se fazer perguntas aos dados
+
+---
+
+<div id="htmlwidget-4d3bda4f8b53927f5b24" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4d3bda4f8b53927f5b24">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30"],[0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,9,12,11,13,13,8,2,4,6,11,14,13,12,10,9],[1260,1258,1268,1253,1230,1142,1089,1064,1051,1043,1047,1043,981,1003,1431,1874,1381,1258,1389,1314,1301,994,899,1605,1948,1389,1264,1299,1303,1292],[34,34,34,34,34,34,35,35,35,36,36,36,37,37,37,38,38,38,39,39,40,40,40,41,41,42,42,42,43,43],[47,47,48,47,46,44,43,43,39,39,37,37,46,50,59,56,45,42,36,29,31,47,37,45,43,31,31,35,33,34],[30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30],[61.960785,63.137257,62.35294,61.176472,59.607841,58.431374,56.07843,55.294117,51.372547,50.980392,48.627453,49.019608,64.705879,68.235291,85.490196,68.235291,55.294117,53.333332,42.745098,37.64706,34.901962,62.745098,45.098038,56.862743,50.196079,37.254902,40.784313,42.745098,41.568626,41.960785],[15.686275,15.686275,15.686275,15.686275,15.294118,14.509804,14.117647,14.117647,13.725491,13.333333,13.333333,13.333333,14.509804,14.509804,19.215687,19.607843,15.294118,14.90196,13.725491,13.333333,12.156863,13.725491,12.156863,16.470589,16.470589,13.333333,13.725491,13.725491,13.725491,13.725491]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> \u003c/th>\n      <th>speed\u003c/th>\n      <th>rpm\u003c/th>\n      <th>engine_temperature\u003c/th>\n      <th>map\u003c/th>\n      <th>air_temperature\u003c/th>\n      <th>load_percentage\u003c/th>\n      <th>throttle_position\u003c/th>\n    \u003c/tr>\n  \u003c/thead>\n\u003c/table>","options":{"pageLength":10,"scrollX":true,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+
+---
+class: inverse, bottom, left
+background-image: url(../img/ml-icon.png)
+background-size: 250px
+background-position: 90% 16%
+
+# Let's play with Machine Learning!
+
+---
+class: top, left
+
+# Troca de Marcha
+
+---
+
+# Horários de Uso
+
+---
+
+# Consumo de Combustível
+
+---
+
+# Dinâmica do Veículo
+
+---
+
+# Densidade do Tráfego
+
+---
+
+# Próxima Manutenção
+
+---
+class: inverse, center, middle
+
+# Pré-requisitos
+
+---
+class: inverse, center, middle
+background-image: url(../img/r-logo.svg)
+background-size: 200px
+
+---
+class: inverse, center, middle
+background-image: url(../img/python-logo.svg)
+background-size: 200px
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true
+});
+if (window.HTMLWidgets) slideshow.on('showSlide', function (slide) {setTimeout(function() {window.dispatchEvent(new Event('resize'));}, 100)});</script>
+
+  </body>
+</html>
