@@ -65,6 +65,7 @@ background-image: none
 - **Co-founder** e **CAO** da Nexer
 
 ---
+count: false
 class: inverse, center, bottom
 background-image: url(./img/nexer-cover.jpg)
 background-size: contain
@@ -84,13 +85,28 @@ background-position: 90% 8%
 
 # Nexer
 
-![](./img/nexer-cover.jpg)
+```{r echo=FALSE, out.width="80%", fig.align='center'}
+knitr::include_graphics("./img/nexer_obd_1.png")
+```
 
 ???
 Explico brevemente a solução, que tem como objetivo usar Big Data, ML e Int. Art. 
 para facilitar a vida do motorista.
 
 ---
+class: left, top
+background-image: url(./img/logo-nexer.png)
+background-size: 80px
+background-position: 90% 8%
+
+# Nexer
+
+```{r echo=FALSE, out.width="60%", fig.align='center'}
+knitr::include_graphics("./img/nexer_obd_2.png")
+```
+
+---
+count: false
 class: inverse, center, middle
 
 # Que dados coletamos?
@@ -116,7 +132,7 @@ trip.data %>%
 ```
 
 ???
-Nesse ponto é interessante começar a ressaltar a importância de se fazer perguntas aos dados
+Nesse ponto é interessante começar a ressaltar a importância de se fazer perguntas aos dados. As técnicas nos permitirão interpretar a história que os dados contam.
 
 ---
 
@@ -132,6 +148,7 @@ trip.data %>%
 ```
 
 ---
+count: false
 class: inverse, bottom, left
 background-image: url(./img/ml-icon.png)
 background-size: 250px
@@ -186,6 +203,7 @@ Como machine learning está presente no dia-a-dia da Nexer?
 ![](./img/trip_outlier.svg)
 
 ---
+count: false
 class: inverse, center, middle
 
 # Como aprender Machine Learning?
@@ -219,6 +237,7 @@ class: top, left
 Pré-disposição e vontade de aprender são fundamentais
 
 ---
+count: false
 class: inverse, center, middle
 
 # Cursos On-line
@@ -228,7 +247,7 @@ class: top, left
 
 ### Datacamp (site ótimo!)
 
-- [Intro to Statistics with R](https://www.datacamp.com/courses/intro-to-statistics-with-r-introduction) (Descriptive Statistics)
+- [Intro to Statistics with R](https://www.datacamp.com/courses/intro-to-statistics-with-r-introduction) (Estatística Descritiva)
 
 - [Data Analysis and Statistical Inference](https://www.datacamp.com/community/open-courses/statistical-inference-and-data-analysis)
 
@@ -247,6 +266,7 @@ class: top, left
 - [Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/) (Gilbert Strang)
 
 ---
+count: false
 class: inverse, center, middle
 background-image: url(./img/r-logo.svg)
 background-size: 200px
@@ -292,6 +312,7 @@ background-position: center 90%
 [Machine Learning with R](https://www.amazon.com/Machine-Learning-Second-Brett-Lantz/dp/1784393908/ref=sr_1_1?s=books&ie=UTF8&qid=1484790729&sr=1-1) (Brett Lantz)
 
 ---
+count: false
 class: inverse, center, middle
 background-image: url(./img/python-logo.svg)
 background-size: 200px
@@ -337,6 +358,7 @@ background-position: center 90%
 [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/ref=asap_bc?ie=UTF8) (Sebastian Raschka)
 
 ---
+count: false
 class: inverse, center, middle
 
 # Livros Clássicos
@@ -378,6 +400,7 @@ background-position: center 90%
 ### Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
 
 ---
+count: false
 class: inverse, center, middle
 
 # Como Praticar?
@@ -407,6 +430,7 @@ Conjuntos de dados variados.
 [https://www.data.gov](https://www.data.gov/)
 
 ---
+count: false
 class: inverse, center, middle
 
 # Perguntas?
