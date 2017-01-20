@@ -45,15 +45,6 @@ background-position: center middle
 - **Email:** david@nexer.com.br
 ]
 
-???
-(Quem vos fala?) Falar sobre minha formação, com foco em como iniciei na área de 
-machine learning e como comecei a trabalhar de fato na área. Contar a história 
-de como iniciei na Nexer (Danilo Mattos, CEO, chegou no meu laboratório da 
-graduação dizendo que estava coletando dados de carros e precisava analisá-los.
-Foi quando identificamos alguns padrões que indicavam que o veículo tinha 5 
-marchas. No entanto, o algoritmo acusava 7. Era um modelo que estava pra entrar 
-no mercado, e realmente tinha 7 marchas.)
-
 ---
 template: about-me
 background-image: none
@@ -63,6 +54,9 @@ background-image: none
 - Mestre em **Inteligência Computacional** pelo *PPGEE* da *UFMG*
 
 - **Co-founder** e **CAO** da Nexer
+
+???
+(Quem vos fala?) Falar sobre minha formação, com foco em como iniciei na área de machine learning e como comecei a trabalhar de fato na área. Meu primeiro contato foi já na graudação. Contar a história de como iniciei na Nexer (Danilo Mattos, CEO, chegou no meu laboratório da pós-graduação dizendo que estava coletando dados de carros e precisava analisá-los. Foi quando identificamos alguns padrões que indicavam que o veículo tinha 5 marchas. No entanto, o algoritmo acusava 7. Era um modelo que estava pra entrar no mercado, e realmente tinha 7 marchas.)
 
 ---
 count: false
@@ -75,7 +69,7 @@ background-size: contain
 Big Data e Analytics para Carros Conectados
 
 ???
-Pergunto quem conhece a Nexer, logo após dizer minha colocação na empresa.
+Perguntar quem conhece a Nexer, logo após contar a história de como a empresa se formou.
 
 ---
 class: left, top
@@ -104,6 +98,9 @@ background-position: 90% 8%
 ```{r echo=FALSE, out.width="60%", fig.align='center'}
 knitr::include_graphics("./img/nexer_obd_2.png")
 ```
+
+???
+O celular envia os dados de trajeto pra nossa nuvem, e lá a mágica acontece. Os dados são tratados por métodos estatísticos e algoritmos de ML.
 
 ---
 count: false
@@ -164,7 +161,7 @@ class: top, left
 ![](./img/trip_summary.png)
 
 ???
-Como machine learning está presente no dia-a-dia da Nexer?
+Como machine learning está presente no dia-a-dia da Nexer? Muito feature engineering!
 
 ---
 
@@ -202,6 +199,9 @@ Como machine learning está presente no dia-a-dia da Nexer?
 
 ![](./img/trip_outlier.svg)
 
+???
+Redução da dimensão dos dados da tabela de resumo de trajetos.
+
 ---
 count: false
 class: inverse, center, middle
@@ -234,7 +234,7 @@ class: top, left
 ]
 
 ???
-Pré-disposição e vontade de aprender são fundamentais
+A visualização de dados permite conhecer melhor a história que os dados contam. Além disso, a visualização esconde a complexidade do algoritmo que está por trás da solução, permitindo explicá-lo em alto nível.
 
 ---
 count: false
